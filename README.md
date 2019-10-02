@@ -3,14 +3,15 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Description
 
-This project implements a failure-resilient design to preserve progress across power cycles without checkpointing for intermittent systems. The design is compatible with multitasking operating systems and enables intermittent systems to
+This project develops an intermittent operating system to preserve computation progress across power cycles without checkpointing for energy-harvesting systems. The intermittent OS is endow several capabilities as follows:
+1. run multiple tasks *concurrently* to improve computation progress 
+2. achieve *consistency* between data and computing progress
+3. recover the system *instantly* from power failures
+4. accumulatively preserve computation progress across power cycles to avoid progress *stagnation*
 
-1. run multiple tasks concurrently to improve computation progress 
-2. achieve consistency between data and computing progress
-3. recover the system instantly from power failures
-4. accumulatively preserve computation progress across power cycles to avoid *progress stagnation*
 
-In this project, the design is integrated into FreeRTOS, a real-time operating system supporting many kinds of commercial microcontrollers, running on MSP-EXP430FR5994 LaunchPad with a demo application. To realize the design, we add a data manager and a recovery handler in the operating system, so that the system runtime can cope with intermittence and exempts application developers from this responsibility. Due to the limitation of the memory size, the current implementation supports up to 10 user tasks and 16 data objects. For more technical details, please refer to [our paper](https://www.citi.sinica.edu.tw/papers/pchsiu/6715-F.pdf "link").
+The intermittent OS is built upon FreeRTOS, a real-time operating system supporting many kinds of commercial microcontrollers, running
+on MSP-EXP430FR5994 LaunchPad, a Texas Instruments platform featuring 256KB FRAM and 8KB on-chip SRAM. We add a data manager and a recovery handler in FreeRTOS, so that the system runtime can cope with intermittence and exempts application developers from this responsibility. Due to the limitation of the memory size, the current implementation supports up to 10 user tasks and 16 data objects. For more technical details, please refer to [our paper](https://www.citi.sinica.edu.tw/papers/pchsiu/6715-F.pdf "link").
 
 <p align="center">
 <img src="https://github.com/meenchen/failure-resilient-OS/blob/master/SystemOverview.jpg" width="720">
@@ -32,12 +33,12 @@ In this project, the design is integrated into FreeRTOS, a real-time operating s
 
 ### Prerequisites
 
-Here is the basic software and hardware you need to build the applications for this demo project. 
+Here is the basic software and hardware you need to build the applications running on this intermittent OS. 
 
 * [Code composer studio](http://www.ti.com/tool/CCSTUDIO "link") (recommended versions: > 7.0)
 * [MSP-EXP430FR5994 LaunchPad](http://www.ti.com/tool/MSP-EXP430FR5994 "link")
 
-However, if you are using other software (i.e., IDE or compiler) or other boards to develope your applications, please refer to please refer to [here](#porting-to-other-devices) for device setting.
+However, if you are using other software (i.e., IDE or compiler) or other boards to develope your applications, please refer to [here](#porting-to-other-devices) for device settings.
 
 ### Setup and Build
 
