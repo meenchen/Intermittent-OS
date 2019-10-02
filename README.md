@@ -1,4 +1,4 @@
-# Intermittent-OS
+# Intermittent OS
 
 <!-- ABOUT THE PROJECT -->
 ## Project Description
