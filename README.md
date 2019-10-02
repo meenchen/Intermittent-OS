@@ -1,4 +1,4 @@
-# failure-resilient-OS
+# Intermittent-OS
 
 <!-- ABOUT THE PROJECT -->
 ## Project Description
