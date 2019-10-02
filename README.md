@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Description
 
-This project develops an intermittent operating system to preserve computation progress across power cycles without checkpointing for energy-harvesting systems. The intermittent OS is endow several capabilities as follows:
+This project develops an intermittent operating system to preserve computation progress across power cycles without checkpointing for energy-harvesting systems. The intermittent OS is endowed with several capabilities as follows:
 1. run multiple tasks *concurrently* to improve computation progress 
 2. achieve *consistency* between data and computing progress
 3. recover the system *instantly* from power failures
