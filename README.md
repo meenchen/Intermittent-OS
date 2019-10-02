@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Description
 
-This project develops an intermittent operating system to preserve computation progress across power cycles without checkpointing for energy-harvesting systems. The intermittent OS is endowed with several capabilities as follows:
+This project develops an intermittent operating system (OS) to preserve computation progress across power cycles without checkpointing for energy-harvesting systems. The intermittent OS is endowed with several capabilities as follows:
 1. run multiple tasks *concurrently* to improve computation progress 
 2. achieve *consistency* between data and computing progress
 3. recover the system *instantly* from power failures
@@ -146,9 +146,8 @@ See the [LICENSE](https://github.com/meenchen/failure-resilient-OS/blob/master/L
 
 ## Contact
 
-Thank you for checking out our work! Let me know if you have any question or comments for improving our work.
+This project is co-led by Dr. Pi-Cheng Hsiu (Academia Sinica) and Dr. Tei-Wei Kuo (National Taiwan University). If you have any question or comments, please the project manager below.
 
 Contact author: Wei-Ming Chen
-
 Email: d04922006@ntu.edu.tw
 
