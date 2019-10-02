@@ -146,7 +146,7 @@ See the [LICENSE](https://github.com/meenchen/failure-resilient-OS/blob/master/L
 
 ## Contact
 
-This project is co-led by Dr. Pi-Cheng Hsiu (Academia Sinica) and Dr. Tei-Wei Kuo (National Taiwan University). If you have any questions or comments, please the project manager below.
+This project is co-led by Dr. Pi-Cheng Hsiu (Academia Sinica) and Dr. Tei-Wei Kuo (National Taiwan University). If you have any questions or comments, please contact the project manager below.
 
 Contact author: Wei-Ming Chen
 
