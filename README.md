@@ -144,11 +144,16 @@ __interrupt void ADC12_ISR(void)
 
 See the [LICENSE](https://github.com/meenchen/failure-resilient-OS/blob/master/LICENSE) file for license rights and limitations
 
+
+## Contributors
+
+This project is co-led by Dr. Pi-Cheng Hsiu (Academia Sinica) and Dr. Tei-Wei Kuo (National Taiwan University). Listed below are the contributors.
+
+Wei-Ming Chen (Academia Sinica & National Taiwan University)
+Pi-Cheng Hsiu (Academia Sinica)
+Tei-Wei Kuo (National Taiwan University)
+
 ## Contact
 
-This project is co-led by Dr. Pi-Cheng Hsiu (Academia Sinica) and Dr. Tei-Wei Kuo (National Taiwan University). If you have any questions or comments, please contact the project manager below.
-
-Contact author: Wei-Ming Chen
-
-Email: d04922006@ntu.edu.tw
+If you have any questions or comments, please contact Wei-Ming Chen at d04922006@ntu.edu.tw.
 
